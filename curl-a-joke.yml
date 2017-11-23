@@ -1,6 +1,6 @@
 provider:
   name: faas
-  gateway: http://192.168.42.80:8080
+  gateway: http://localhost:8080
 
 functions:
   func_curl-a-joke:
