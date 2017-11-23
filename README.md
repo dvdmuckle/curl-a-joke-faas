@@ -5,3 +5,5 @@ This is a variation on the [curl-a-joke](https://github.com/dvdmuckle/curl-a-jok
 ```bash
 faas-cli deploy -f ./curl-a-joke.yml
 ```
+
+If you're deploying to Kubernetes, please use the `curl-a-joke-k8s.yml` variation.
