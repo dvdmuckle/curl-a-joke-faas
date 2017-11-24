@@ -27,12 +27,7 @@ var jokes = [...]string{
 	"What do you get when you cross a snowman with a vampire? Frostbite!",
 	"What do you call a bee that lives in America? USB!"}
 
-func randjoke() string {
-	rand.Seed(time.Now().UTC().UnixNano())
-	j := jokes[rand.Intn(len(jokes))]
-	return j
-}
-
 func Handle(req []byte) string {
-	return randjoke()
+	rand.Seed(time.Now().UTC().UnixNano())
+	return jokes[rand.Intn(len(jokes))]
 }
