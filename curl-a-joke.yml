@@ -6,4 +6,4 @@ functions:
   func_curl-a-joke:
     lang: go
     handler: ./curl-a-joke
-    image: dvdmuckle/curl-a-joke-faas
+    image: curl-a-joke-faas
