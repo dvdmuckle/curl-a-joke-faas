@@ -4,6 +4,6 @@ provider:
 
 functions:
   curlajoke:
-    lang: go
+    lang: go-armhf
     handler: ./curl-a-joke
-    image: dvdmuckle/curl-a-joke-faas:k8s
+    image: dvdmuckle/curl-a-joke-faas:k8s-armhf

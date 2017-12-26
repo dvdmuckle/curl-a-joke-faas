@@ -3,7 +3,7 @@ provider:
   gateway: http://localhost:8080
 
 functions:
-  curlajoke:
-    lang: go
+  curl-a-joke:
+    lang: go-armhf
     handler: ./curl-a-joke
-    image: dvdmuckle/curl-a-joke-faas:k8s
+    image: curl-a-joke-faas:armhf
