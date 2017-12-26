@@ -6,4 +6,4 @@ functions:
   curl-a-joke:
     lang: go-armhf
     handler: ./curl-a-joke
-    image: curl-a-joke-faas:armhf
+    image: dvdmuckle/curl-a-joke-faas:armhf
