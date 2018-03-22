@@ -1,9 +1,0 @@
-provider:
-  name: faas
-  gateway: http://localhost:8080
-
-functions:
-  curlajoke:
-    lang: go
-    handler: ./curl-a-joke
-    image: dvdmuckle/curl-a-joke-faas
